@@ -1,12 +1,12 @@
-# Braintree JSDoc Template
+# BSD Education JSDoc Template
 
-A clean, responsive documentation template with search and navigation highlighting for JSDoc 3. Forked from [github.com/nijikokun/minami](https://github.com/nijikokun/minami).
+A clean, responsive documentation template with search and navigation highlighting for JSDoc 3. Forked from [github.com/nijikokun/minami](https://github.com/braintree/jsdoc-template).
 
-![Braintree JS Doc Template Screenshot](https://puu.sh/rWvW0/2831fd69d6.png)
+![BSD Education JS Doc Template Screenshot](https://puu.sh/rWvW0/2831fd69d6.png)
 
 ## Responsive
 
-![Braintree JS Doc Template Screenshot](https://puu.sh/rWvZ6/aee92a4787.png)
+![BSD Education JS Doc Template Screenshot](https://puu.sh/rWvZ6/aee92a4787.png)
 
 ## Uses
 

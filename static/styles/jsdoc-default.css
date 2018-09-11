@@ -157,6 +157,11 @@ h4 {
 }
 
 h4.name {
+    width: 100%;
+    padding: 15px 30px;
+    background-color: lavender;
+    color: cornflowerblue;
+    box-shadow: 0px 2px 3px #888888;
     font-size: 20px;
     margin-top: 0;
     font-weight: 500;
@@ -231,7 +236,7 @@ section {
 
 .signature-attributes {
     font-size: 60%;
-    color: #aaa;
+    color: crimson;
     font-style: italic;
     font-weight: lighter;
 }
@@ -425,12 +430,16 @@ footer {
 }
 
 .type-signature {
-    color: #aaa;
+    color: blueviolet;
 }
 
 .name, .signature {
     font-family: 'bt_mono', monospace;
     word-wrap: break-word;
+}
+
+.signature {
+    color: blueviolet;
 }
 
 .details {
@@ -499,7 +508,7 @@ footer {
     border: 1px solid #ddd;
     border-radius: 3px;
     overflow: auto;
-    background-color: #fbfbfb;
+    background-color: #23241f;
 }
 
 .prettyprint.source {
@@ -510,13 +519,13 @@ footer {
     font-size: 100%;
     line-height: 18px;
     display: block;
-    margin: 0 30px;
-    background-color: #fbfbfb;
-    color: #4D4E53;
+    margin-right: 10px;
+    background-color: #23241f;
+    color: #fff;
 }
 
 .prettyprint>code {
-    padding: 30px 15px;
+    padding: 10px 5px;
 }
 
 .prettyprint .linenums code {
@@ -609,6 +618,9 @@ footer {
 
 dl.param-type {
     margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 10px 15px;
 }
 
 .param-type dt, .param-type dd {
@@ -616,7 +628,8 @@ dl.param-type {
 }
 
 .param-type dd {
-    font-family: Consolas, Monaco, 'Andale Mono', monospace
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    margin: 0px 5px;
 }
 
 .disabled {
@@ -932,6 +945,21 @@ input.search-input:focus {
 
 .hljs-strong {
     font-weight: bold
+}
+
+.hljs-ln td {
+    border-top: none;
+    border-right: 1px solid #4a4a4a;
+}
+
+.hljs-ln-code {
+    padding: 0px 10px !important;
+    border-right: none !important;
+}
+
+.hljs-ln-numbers {
+    text-align: center;
+    padding-right: 3px !important;
 }
 
 .link-icon {
